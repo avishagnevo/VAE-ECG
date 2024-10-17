@@ -28,9 +28,6 @@ Male have 5733 records in the dataset.
 
 Use a Combined Scaler for Both:
 Since I want the male and female datasets to be scaled consistently across both groups, I apply a global scaler for both datasets.
-Why: This approach ensures that the model's inputs are on the same scale when comparing the reconstruction error between sexes. 
-This might make more sense if your hypothesis is focused on comparing the reconstruction behavior of the VAE across sexes, 
-rather than the differences in the raw ECG data between sexes.
 
 Dynamic Windowing in Dataset: allows the model to generalize better by varying the portions of the ECG sequences seen during training.
 '''
