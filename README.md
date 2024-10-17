@@ -2,9 +2,10 @@
 A VAE-based framework for reconstructing ECG signals and conducting statistical hypothesis testing. Detailed methodology and results can be found in the report.pdf.
 
 To download the dataset used for training, run the following command in the project directory:
-"""
+
+
 wget -r -N -c -np https://physionet.org/files/challenge-2021/1.0.3/training/chapman_shaoxing/
-"""
+
 
 ## File Overview (src directory)
 ### .py
